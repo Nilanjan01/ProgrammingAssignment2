@@ -9,7 +9,7 @@ makeCacheMatrix <- function(x = matrix()) {
    
   inv <- NULL
   set <- function(y) {
-    print("I am here 2")
+    #print("I am here 2")
     x <<- y
     inv <<- NULL
   }
